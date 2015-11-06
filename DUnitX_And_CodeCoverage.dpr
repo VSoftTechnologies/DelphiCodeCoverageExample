@@ -7,11 +7,6 @@ program DUnitX_And_CodeCoverage;
 {$R *.res}
 
 uses
-  madExcept,
-  madLinkDisAsm,
-  madListHardware,
-  madListProcesses,
-  madListModules,
   DUnitX.TestFramework,
   DUnitX.Loggers.Console,
   DUnitX.Windows.Console,
