@@ -1,0 +1,1 @@
+"CodeCoverage.exe" -e "..\Win32\Debug\DUnitX_And_CodeCoverage.exe" -m "..\Win32\Debug\DUnitX_And_CodeCoverage.map" -ife -uf dcov_units.lst -spf dcov_paths.lst -od ".\Output\" -lt -html

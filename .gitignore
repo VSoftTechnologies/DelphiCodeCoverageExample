@@ -1,0 +1,7 @@
+Win32/
+*/__history
+*.log
+*.local
+*.dsk
+*.identcache
+*.res

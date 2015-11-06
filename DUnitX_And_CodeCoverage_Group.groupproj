@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AE98A464-D391-4744-BAC3-36C17EC5EE94}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DUnitX_And_CodeCoverage.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DUnitX_And_CodeCoverage">
+        <MSBuild Projects="DUnitX_And_CodeCoverage.dproj"/>
+    </Target>
+    <Target Name="DUnitX_And_CodeCoverage:Clean">
+        <MSBuild Projects="DUnitX_And_CodeCoverage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DUnitX_And_CodeCoverage:Make">
+        <MSBuild Projects="DUnitX_And_CodeCoverage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DUnitX_And_CodeCoverage"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DUnitX_And_CodeCoverage:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DUnitX_And_CodeCoverage:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
