@@ -5,3 +5,7 @@ Win32/
 *.dsk
 *.identcache
 *.res
+*.fbl8
+*.fbpInf
+*.fbpbrk
+*.~dsk

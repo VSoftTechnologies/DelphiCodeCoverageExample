@@ -1,0 +1,126 @@
+﻿project
+begin
+  projectid = {E0AFBA9C-BAE2-4BEB-B0CD-5A7CE0A6DF8C}
+  target
+  begin
+    name = Default
+    targetid = {F4BEED01-A008-447E-9718-8290488BA938}
+    rootaction
+    begin
+      action.delphi.build
+      begin
+        allowimplicitimport = true
+        alwaysuseconditionalsfromdof = true
+        autoincbuild = false
+        autoupdatefileversion = true
+        autoupdateproductversion = false
+        buildall = true
+        buildversion = 0
+        codepage = 1252
+        compileprojectresources = false
+        compileridl = true
+        configname = CI
+        debugversionnumbers = false
+        delphiversion = DelphiXE7
+        eurekalogverboselogging = false
+        frameworktype = VCL
+        hintsaserror = false
+        iconfile = $(BDS)\\bin\\delphi_PROJECTICON.ico
+        id = {A727BB52-C907-4922-922C-04D3B7A07E4F}
+        includecompiledate = false
+        includemanifest = false
+        includeverinfo = false
+        isdebug = false
+        isdll = false
+        isprerelease = false
+        isprivate = false
+        isspecial = false
+        keepcfg = false
+        linkproductversiontofileversion = true
+        locale = 1033
+        majorversion = 1
+        minorversion = 0
+        platform = Win32
+        projectfile = %FBPROJECTDIR%\\..\\DUnitX_And_CodeCoverage.dpr
+        regenerateresource = true
+        releaseversion = 0
+        resourcecompilertype = rcBorland
+        startingdir = %FBPROJECTDIR%\\..\\
+        updatedoffile = false
+        updatepackagesource = false
+        updateversioninfokeys = false
+        useeurekalogcompiler = false
+        useprojectsettings = [usPackages,usCompiler,usLinker,usDirectories,usVersionInfo]
+        usepropertyset = false
+        useversionfromdof = false
+        versioninfokeys = "CompanyName\=" +
+                          "FileDescription\=" +
+                          "FileVersion\=1.0.0.0" +
+                          "InternalName\=" +
+                          "LegalCopyright\=" +
+                          "LegalTrademarks\=" +
+                          "OriginalFilename\=" +
+                          "ProductName\=" +
+                          "ProductVersion\=1.0.0.0" +
+                          "Comments\=" +
+                          ""
+        warningsaserror = false
+        workaroundd5bug = false
+        delphi.compileroptions
+        begin
+          alwaysuseconditionalsfromdof = true
+          alwaysusedelphilibrarypath = true
+          alwaysusedofsearchpath = true
+          assertions = true
+          assignableconst = false
+          booleval = false
+          conditionals = DEBUG;madExcept;CI
+          consoleapp = true
+          debuginfo = true
+          definitionsonly = true
+          emitruntimetypeinformation = false
+          exportallsymbols = false
+          extendedsyntax = true
+          externaltd32 = false
+          frameworktype = None
+          generatedocumentation = false
+          generatehpp = false
+          hugestrings = true
+          imagebase = 4194304
+          includenamespaces = false
+          includeremotesymbols = false
+          includetd32 = true
+          inlining = inOn
+          iochecking = true
+          librarypath = "c:\\program files (x86)\\embarcadero\\studio\\15.0\\lib\\Win32\\release;C:\\Users\\jason\\Documents\\Embarcadero\\Studio\\15.0\\Imports;c:\\program files (x86)\\embarcadero\\studio\\15.0\\Imports;C:\\Users\\Public\\Documents\\Embarcadero\\Studio\\15.0\\Dcp;c:\\program files (x86)\\embarcadero\\studio\\15.0\\include;C:\\Program Files (x86)\\madCollection\\madBasic\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madDisAsm\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madExcept\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\Plugins\\win32;C:\\Program Files (x86)\\madCollection\\madRemote\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madKernel\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madCodeHook\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madSecurity\\BDS15\\win32;C:\\Program Files (x86)\\madCollection\\madShell\\BDS15\\win32;C:\\Program Files (x86)\\Raize\\RC6\\Lib\\RS-XE7\\Win32;c:\\documents and settings\\all users\\documents\\rad studio\\9.0\\dcp;I:\\OpenSource\\SourceForge\\FastMM\\;C:\\Program Files (x86)\\ddobjects.de\\DDDebug\\Lib\\DelphiXE7\\$(Platform);C:\\Program Files (x86)\\TestInsight\\Source;$(TestInsight)"
+          linkeroutput = 0
+          localsymbols = true
+          mapfile = 3
+          maxstacksize = 1048576
+          minstacksize = 16384
+          namespaceprefixes = System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;
+          openstrings = true
+          optimisation = false
+          outputdir = .\\$(Platform)\\$(Config)
+          overflowchecking = false
+          packages = madbasic_;nxgridrun_dxe7;fbmisccomponents;bindcompfmx;dbxsqlitedriver;addict4_d21;dwwin7controls;restbackendcomponents;fmx;raizecomponentsvcldb;rtl;dbrtl;dbxclientdriver;indysystem;tethering;bindcomp;inetdb;fixinsight_xe7;raizecomponentsvcl;dbxinterbasedriver;fbdreamruntime;maddisasm_;xmlrtl;svnui;dbxcommondriver;vclimg;indyprotocols;dbxcds;dbxmysqldriver;sptbxlib_d21;metropolisuilivetile;nxcommondsgn_dxe7;soaprtl;vclactnband;bindengine;vcldb;bindcompdbx;vcldsnap;bindcompvcl;vspager;nxcommonrun_dxe7;fbformdesigner;vclie;madexcept_;vcltouch;emsclient;customiptransport;frameviewerxe7;vclribbon;vclsmp;dsnap;indyipserver;vclrestcomponents;nxgriddsgn_dxe7;fmxase;vcl;indycore;synedit_rxe7;indyipcommon;cloudservice;dsnapcon;kwizardr;inet;fmxobj;fbsynedithighlighters;soapserver;soapmidas;vclx;inetdbxpress;lmdrtdocking;svn;dcef_xe7;dsnapxml;fmxdae;restcomponents;jsdialogpack;tb2k;virtualtreesr;lmdrtl;adortl;dbexpress;indyipclient
+          rangechecking = false
+          recordfieldalign = fa8
+          referenceinfo = true
+          safedivide = false
+          searchpath = $(DUNITX)
+          showhints = true
+          showwarnings = true
+          stackframes = true
+          stringchecks = true
+          typedpointers = false
+          unitaliases = WinTypes\=Windows;WinProcs\=Windows;DbiTypes\=BDE;DbiProcs\=BDE;DbiErrs\=BDE
+          unitoutputdir = .\\$(Platform)\\$(Config)
+          usedebugdcu = false
+          usepackages = false
+          varstringchecks = true
+        end
+      end
+    end
+  end
+end
